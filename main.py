@@ -1,6 +1,6 @@
 credits="""
 
-ADD ME ON DISCORD zabtxd#2000 if you need help
+ADD ME ON DISCORD a404#8596 if you need help
 """
 
 
