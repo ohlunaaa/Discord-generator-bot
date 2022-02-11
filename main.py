@@ -76,7 +76,7 @@ async def gen(ctx,name=None):
                 else:
                     embed = discord.Embed(
                     title="Account Generated!",
-                    description="""Check your DMs 
+                    description="""Check your DMs\n 
                     Remember, sometimes the Account wont work""",
                     color=0x9208ea,
                     timestamp = datetime.utcnow()
