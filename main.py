@@ -1,14 +1,6 @@
 credits="""
-
 ADD ME ON DISCORD a404#8596 if you need help
 """
-
-
-
-
-
-
-
 print(credits)
 import discord,json,os,random
 from discord.ext import commands
