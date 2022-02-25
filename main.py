@@ -59,7 +59,7 @@ async def gen(ctx,name=None):
                     account = random.choice(lines)
                 try:
                     lol3 = discord.Embed(title=f"{str(account)}",description="Here your account",color=0x9208ea,timestamp = datetime.utcnow())
-                    lol3.set_footer(text="by zabtxd#2000 & xhze#1325")
+                    lol3.set_footer(text="by a404#8596")
                     lol3.set_thumbnail(url='https://cdn.discordapp.com/attachments/916248485379055656/927998700729565234/CE22A7D4-905C-40A8-96E4-00BFCC3E3A52.gif')
                     await ctx.author.send(embed=lol3)
                 except:
@@ -73,7 +73,7 @@ async def gen(ctx,name=None):
                     color=0x9208ea,
                     timestamp = datetime.utcnow()
                     )
-                    embed.set_footer(text="by zabtxd#2000 & xhze#1325")
+                    embed.set_footer(text="by a404#8596")
                     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/916248485379055656/927998700729565234/CE22A7D4-905C-40A8-96E4-00BFCC3E3A52.gif')
                     await ctx.send(embed = embed)
                     with open("Accounts\\"+name,"w") as file:
