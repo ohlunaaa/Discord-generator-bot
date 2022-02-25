@@ -36,7 +36,7 @@ async def on_command_error (ctx, error):
 
 
 @bot.command()
-@commands.cooldown(1, 20, commands.BucketType.user)
+@commands.cooldown(1, 10800, commands.BucketType.user)
 async def gen(ctx,name=None):
     if name == None:
         lol = discord.Embed(title="Specify the account you want!",description="",color=0x9208ea,timestamp = datetime.utcnow())
